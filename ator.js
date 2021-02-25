@@ -79,9 +79,9 @@ function atravessou() {
 
 function gameOver() {
   if(vidas === 0) {
+    somGameOver.play();
     image(imagemGameOver,150,100,200,200);
     vivo = false;
-    somGameOver.play();
   }
 }
 
