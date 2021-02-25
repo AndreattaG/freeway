@@ -81,7 +81,7 @@ function gameOver() {
   if(vidas === 0) {
     image(imagemGameOver,150,100,200,200);
     vivo = false;
-    //somGameOver.play();
+    somGameOver.play();
   }
 }
 
