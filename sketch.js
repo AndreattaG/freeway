@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  //somTrilha.play();
+  somTrilha.play();
   background(imagemEstrada);
   mostraAtor();
   mostraVidas();
