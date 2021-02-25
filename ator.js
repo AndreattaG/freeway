@@ -79,7 +79,7 @@ function atravessou() {
 
 function gameOver() {
   if(vidas === 0) {
-    somGameOver.play();
+    //somGameOver.play(); NÃO ESTÁ FUNCIONANDO
     image(imagemGameOver,150,100,200,200);
     vivo = false;
   }
