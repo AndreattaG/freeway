@@ -12,7 +12,6 @@ function preload() {
   imagemCarros = [imagemCarroVerde, imagemCarroPreto, imagemCarroAmarelo,imagemCarroPreto, imagemCarroVerde, imagemCarroAmarelo];
   imagemGameOver = loadImage("imgs/gameOver.jpg");
   imagemVidas = loadImage("imgs/vidas.png");
-  imagemReset = loadImage("imgs/reset.jpg")
   somTrilha = loadSound("sounds/trilha.mp3");
   somPonto = loadSound("sounds/ponto.wav");
   somColisao = loadSound("sounds/colisao.mp3");
