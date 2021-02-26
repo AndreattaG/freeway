@@ -21,4 +21,5 @@ function draw() {
   colisao(xCarros[4],yCarros[4]);
   colisao(xCarros[5],yCarros[5]);
   gameOver();
+  reset();
 }
