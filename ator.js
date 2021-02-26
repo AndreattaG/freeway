@@ -91,3 +91,9 @@ function mostraPontos() {
   textSize(25);
   text(pontos,20,26)
 }
+
+function reset() {
+  if(vivo == false) {
+    image(imagemReset,80,80,50,50);
+  }
+}
