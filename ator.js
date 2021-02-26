@@ -93,7 +93,7 @@ function mostraPontos() {
 }
 
 function reset() {
-  if(vivo == false) {
+  if(vidas === 0) {
     image(imagemReset,80,80,50,50);
   }
 }
